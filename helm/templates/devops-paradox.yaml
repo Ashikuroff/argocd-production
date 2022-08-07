@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: devopsparadox..nip.io
+          host: devopsparadox
       version: v3
   destination:
     namespace: production
