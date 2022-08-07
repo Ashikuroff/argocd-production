@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: devops-toolkit..nip.io
+          host: devops-toolkit
       version: v3
   destination:
     namespace: production
