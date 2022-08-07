@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: devops-toolkit
+  name: devops-paradox
   namespace: argocd
   finalizers:
     - resources-finalizer.argocd.argoproj.io
@@ -16,7 +16,7 @@ spec:
         image:
           tag: latest
         ingress:
-          host: devops-toolkit..nip.io
+          host: devopsparadox..nip.io
       version: v3
   destination:
     namespace: production
